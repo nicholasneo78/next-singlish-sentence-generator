@@ -22,7 +22,7 @@ column = 0
 for post in get_posts(str(targetPage), pages=noOfPages):
     try:
         # write operation perform 
-        if (len(post['text'])):
+        if (len(post['text'])): #Check length of the post
             print("Saving post #"+str(row)+": "+post['text'][:50])
             worksheet.write(row, column, post['text'])
             # incrementing the value of row by one 
