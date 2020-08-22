@@ -19,17 +19,17 @@ row = 0
 column = 0
 
 #Search for the posts
-try:
-    for post in get_posts(str(targetPage), pages=noOfPages):
+for post in get_posts(str(targetPage), pages=noOfPages):
+    try:
         print("Saving post #"+str(row)+": "+post['text'][:50])
         # write operation perform 
         worksheet.write(row, column, post['text'])
         # incrementing the value of row by one 
         # with each iteratons. 
         row += 1
-          
-    workbook.close()
 
-#Show invalid message
-except:
-    print("Invalid page!")
+    #Show invalid post
+    except:
+        print("Invalid page!")
+    
+workbook.close()
