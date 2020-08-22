@@ -38,5 +38,5 @@ for post in get_posts(str(targetPage), pages=noOfPages):
 
 #Excel saved message
 print("Successfully saved as scrappingData_"+str(targetPage)+"_FULL.xlsx")
-print("Total rows: "+row)#Total row message
+print("Total rows: "+str(row))#Total row message
 workbook.close()
