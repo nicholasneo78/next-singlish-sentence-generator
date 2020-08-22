@@ -36,5 +36,5 @@ for post in get_posts(str(targetPage), pages=noOfPages):
         print("Invalid post!")
 
 #Excel saved message
-print("Successfully saved as scrappingData_'+str(targetPage)+'_FULL.xlsx')
+print("Successfully saved as scrappingData_"+str(targetPage)+"_FULL.xlsx")
 workbook.close()
