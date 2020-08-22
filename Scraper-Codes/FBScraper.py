@@ -25,6 +25,7 @@ for post in get_posts(str(targetPage), pages=noOfPages):
         if (len(post['text'])): #Check length of the post
             print("Scraping post #"+str(row)+": ")
             print(post['text'])
+            print("#############") #Comment out line
             print("")
             worksheet.write(row, column, post['text'])
             # incrementing the value of row by one 
