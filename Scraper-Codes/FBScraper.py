@@ -40,4 +40,4 @@ for post in get_posts(str(targetPage), pages=noOfPages):
 workbook.close()
 #Debug message
 print("Successfully saved as scrappingData_"+str(targetPage)+"_FULL.xlsx")
-print("Total rows: "+str(row))#Total row message
+print("Total rows: "+str(row-1))#Total row message
