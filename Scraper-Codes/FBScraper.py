@@ -21,22 +21,25 @@ column = 0
 #Search for the posts
 for post in get_posts(str(targetPage), pages=noOfPages):
     # write operation perform 
-    if (len(post['text'])): #Check length of the post
-        print("Scraping post #"+str(row)+": ")
-        print(post['text'])
-        print("#############") #Comment out line
-        print("")
-        try:
-            worksheet.write(row, column, post['text'])
-            # incrementing the value of row by one 
-            # with each iteratons. 
-            row += 1
-        #Show invalid post message
-        except:
-            print("Invalid post!")
-
-    
-
+    try: 
+        if (len(post['text'])): #Check length of the post
+            print("Scraping post #"+str(row)+": ")
+            try:
+                print(post['text'])
+            except:
+                print("Failed to print text")
+            try:
+                worksheet.write(row, column, post['text'])
+                # incrementing the value of row by one 
+                # with each iteratons. 
+                row += 1
+                print("-----Post saved------")
+            #Show invalid post message
+            except:
+                print("------Invalid post! Failed to save post-------")
+            print("")
+    except:
+        print("-------Post has no message. Skipping to the next post--------")
 #Excel saved message
 workbook.close()
 #Debug message
