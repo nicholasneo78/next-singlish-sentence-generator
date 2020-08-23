@@ -1,7 +1,7 @@
 #Import related stuffs
-import requests
-from bs4 import BeautifulSoup
-import lxml
+#import requests
+#from bs4 import BeautifulSoup
+#import lxml
 import xlsxwriter
 from facebook_scraper import get_posts
 
