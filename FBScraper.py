@@ -10,7 +10,7 @@ targetPage  = input("Target facebook page to scrape: ")
 noOfPages = int(input("Number of pages: "))
 
 #Set up workbook/worksheet
-workbook = xlsxwriter.Workbook('scrapingData_'+str(targetPage)+'_FULL.xlsx') 
+workbook = xlsxwriter.Workbook('scrapeData/scrapingData_'+str(targetPage)+'_FULL.xlsx') 
 worksheet = workbook.add_worksheet() 
 
 # Initialize from the first cell. 
