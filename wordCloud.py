@@ -48,6 +48,7 @@ print('Unique Tokens: %d' % len(set(tokens)))
 #Create comment words
 comment_words = " ".join(tokens)+" "
 stopwords = set(STOPWORDS) 
+print(stopwords)
 
 #Set mask
 mask = np.array(Image.open('./next-sentence-predictor/singaporeMap.png'))
