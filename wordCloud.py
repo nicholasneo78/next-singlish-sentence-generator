@@ -51,7 +51,7 @@ stopwords = set(STOPWORDS)
 print(stopwords)
 
 #Set mask
-mask = np.array(Image.open('./next-sentence-predictor/singaporeMap.png'))
+mask = np.array(Image.open('./next-sentence-predictor/singaporeMap.jpg'))
 
 
 #Create a word cloud
