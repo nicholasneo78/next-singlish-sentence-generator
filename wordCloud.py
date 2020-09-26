@@ -5,6 +5,8 @@ from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt 
 import pandas as pd 
 import string
+from PIL import Image
+import numpy as np
 
 #Functions
 
@@ -47,12 +49,21 @@ print('Unique Tokens: %d' % len(set(tokens)))
 comment_words = " ".join(tokens)+" "
 stopwords = set(STOPWORDS) 
 
+#Set mask
+mask = np.array(Image.open('./next-sentence-predictor/singaporeMap.png'))
+
+
 #Create a word cloud
-wordcloud = WordCloud(width=480, height=480, background_color="pink").generate(comment_words) 
+wc = WordCloud(stopwords=STOPWORDS,
+               mask=mask, background_color="pink",
+               max_words=2000, max_font_size=256,
+               random_state=42, width=mask.shape[1],
+               height=mask.shape[0]).generate(comment_words)
+
 
 # plot the WordCloud image                        
 plt.figure(figsize = (8, 8), facecolor = None) 
-plt.imshow(wordcloud) 
+plt.imshow(wc) 
 plt.axis("off") 
 plt.tight_layout(pad = 0) 
   
