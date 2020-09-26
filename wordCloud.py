@@ -48,10 +48,7 @@ comment_words = " ".join(tokens)+" "
 stopwords = set(STOPWORDS) 
 
 #Create a word cloud
-wordcloud = WordCloud(width = 800, height = 800, 
-                background_color ='white', 
-                stopwords = stopwords, 
-                min_font_size = 10).generate(comment_words) 
+wordcloud = WordCloud(width=480, height=480, background_color="pink").generate(comment_words) 
 
 # plot the WordCloud image                        
 plt.figure(figsize = (8, 8), facecolor = None) 
