@@ -84,9 +84,9 @@ To fine-tune the GPT-2 (small version) in Google Colaboratory such that we are a
 - Python
 
 **Software used**  
-●	Spyder & Visual Studio Code IDE - Phase 1   
-●	Jupyter Notebook - Phase 2   
-●	Google Colaboratory (GPU instance) - Phase 3, 4a & 4b, 5   
+- Spyder & Visual Studio Code IDE - Phase 1   
+- Jupyter Notebook - Phase 2   
+- Google Colaboratory (GPU instance) - Phase 3, 4a & 4b, 5   
 
 ### Files included in this project (File Structure) 
 - Project_Report.pdf   
