@@ -171,4 +171,4 @@ To fine-tune the GPT-2 (small version) in Google Colaboratory such that we are a
 - singaporeMap.jpg
 - project_pipeline.png
 
-Please refer to the report for a detailed explanation and sample results of this project.
+Please refer to the report for a detailed explanation and sample results of this project. :)
