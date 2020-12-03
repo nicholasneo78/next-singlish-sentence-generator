@@ -98,75 +98,77 @@ To fine-tune the GPT-2 (small version) in Google Colaboratory such that we are a
 - Phase5-POS-insertion-Singlish-words.ipynb
 - finalData/
   - SgCorpus.txt
-o	saved_weights/
-▪	2LAYER_GRU-100_epoch-64_batch_size-Adam.csv
-▪	2LAYER_GRU-100_epoch-64_batch_size-Adam.h5
-▪	2LAYER_GRU-100_epoch-64_batch_size-RMSprop.csv
-▪	2LAYER_GRU-100_epoch-64_batch_size-RMSprop.h5
-▪	2LAYER_GRU-100_epoch-128_batch_size-Adam.csv
-▪	2LAYER_GRU-100_epoch-128_batch_size-Adam.h5
-▪	2LAYER_GRU-100_epoch-128_batch_size-RMSprop.csv
-▪	2LAYER_GRU-100_epoch-128_batch_size-RMSprop.h5
-▪	2LAYER_LSTM-1_epoch-128_batch_size-Adam.csv
-▪	2LAYER_LSTM-1_epoch-128_batch_size-Adam.h5
-▪	2LAYER_LSTM-20_epoch-128_batch_size-Adam.csv
-▪	2LAYER_LSTM-20_epoch-128_batch_size-Adam.h5
-▪	2LAYER_LSTM-20_epoch-128_batch_size-SGD.csv
-▪	2LAYER_LSTM-20_epoch-128_batch_size-SGD.h5
-▪	2LAYER_LSTM-100_epoch-64_batch_size-Adam.csv
-▪	2LAYER_LSTM-100_epoch-64_batch_size-Adam.h5
-▪	2LAYER_LSTM-100_epoch-64_batch_size-RMSprop.csv
-▪	2LAYER_LSTM-100_epoch-64_batch_size-RMSprop.h5
-▪	2LAYER_LSTM-100_epoch-128_batch_size-Adam.csv
-▪	2LAYER_LSTM-100_epoch-128_batch_size-Adam.h5
-▪	2LAYER_LSTM-100_epoch-128_batch_size-RMSprop.csv
-▪	2LAYER_LSTM-100_epoch-128_batch_size-RMSprop.h5
+- saved_weights/
+  - 2LAYER_GRU-100_epoch-64_batch_size-Adam.csv
+  - 2LAYER_GRU-100_epoch-64_batch_size-Adam.h5
+  - 2LAYER_GRU-100_epoch-64_batch_size-RMSprop.csv
+  - 2LAYER_GRU-100_epoch-64_batch_size-RMSprop.h5
+  - 2LAYER_GRU-100_epoch-128_batch_size-Adam.csv
+  - 2LAYER_GRU-100_epoch-128_batch_size-Adam.h5
+  - 2LAYER_GRU-100_epoch-128_batch_size-RMSprop.csv
+  - 2LAYER_GRU-100_epoch-128_batch_size-RMSprop.h5
+  - 2LAYER_LSTM-1_epoch-128_batch_size-Adam.csv
+  - 2LAYER_LSTM-1_epoch-128_batch_size-Adam.h5
+  - 2LAYER_LSTM-20_epoch-128_batch_size-Adam.csv
+  - 2LAYER_LSTM-20_epoch-128_batch_size-Adam.h5
+  - 2LAYER_LSTM-20_epoch-128_batch_size-SGD.csv
+  - 2LAYER_LSTM-20_epoch-128_batch_size-SGD.h5
+  - 2LAYER_LSTM-100_epoch-64_batch_size-Adam.csv
+  - 2LAYER_LSTM-100_epoch-64_batch_size-Adam.h5
+  - 2LAYER_LSTM-100_epoch-64_batch_size-RMSprop.csv
+  - 2LAYER_LSTM-100_epoch-64_batch_size-RMSprop.h5
+  - 2LAYER_LSTM-100_epoch-128_batch_size-Adam.csv
+  - 2LAYER_LSTM-100_epoch-128_batch_size-Adam.h5
+  - 2LAYER_LSTM-100_epoch-128_batch_size-RMSprop.csv
+  - 2LAYER_LSTM-100_epoch-128_batch_size-RMSprop.h5  
+- scrapedData/
+  - scrapingData_ACJC-Confessions-365341810240423_FULL.xlsx
+  - scrapingData_andiechen_FULL.xlsx
+  - scrapingData_asrjcconfessions_FULL.xlsx
+  - scrapingData_bellywellyjelly_FULL.xlsx
+  - scrapingData_benjamin.kheng_FULL.xlsx
+  - scrapingData_bossyflossie_FULL.xlsx
+  - scrapingData_cjcroxx_FULL.xlsx
+  - scrapingData_DanielFoodDiary_FULL.xlsx
+  - scrapingData_DHS-Confessions-103690209814932_FULL.xlsx
+  - scrapingData_DollarsAndSenseSG_FULL.xlsx
+  - scrapingData_dreachongofficial_FULL.xlsx
+  - scrapingData_HwaChongConfessions_FULL.xlsx
+  - scrapingData_ieatishootipost_FULL.xlsx
+  - scrapingData_InnovaConfessions_FULL.xlsx
+  - scrapingData_ITE-College-Central-Confessions-102332676616681_FULL.xlsx
+  - scrapingData_ITE-College-West-Confessions-123845157793064_FULL.xlsx
+  - scrapingData_JjcConfessions_FULL.xlsx
+  - scrapingData_ladyironchef_FULL.xlsx
+  - scrapingData_moneysmartsg_FULL.xlsx
+  - scrapingData_mongabong_FULL.xlsx
+  - scrapingData_mrbrownlah_FULL.xlsx
+  - scrapingData_mykxii_FULL.xlsx
+  - scrapingData_NJC-Confessions-414721038609037_FULL.xlsx
+  - scrapingData_npconfession_FULL.xlsx
+  - scrapingData_NTUConfess_FULL.xlsx
+  - scrapingData_nuswhispers_FULL.xlsx
+  - scrapingData_NYP-Confessions-118332335013023_FULL.xlsx
+  - scrapingData_RepublicPolyConfessions_FULL.xlsx
+  - scrapingData_RJConfessions_FULL.xlsx
+  - scrapingData_SajcConfessions_FULL.xlsx
+  - scrapingData_sethluimarketing_FULL.xlsx
+  - scrapingData_SGAG_FULL.xlsx',
+  - scrapingData_simconfessions_FULL.xlsx',
+  - scrapingData_SMUConfessionsPage_FULL.xlsx',
+  - scrapingData_SP-Confessions-329564370479100_FULL.xlsx
+  - scrapingData_SUSSConfessions_FULL.xlsx
+  - scrapingData_therealnaomineo_FULL.xlsx
+  - scrapingData_TheSmartLocal_FULL.xlsx
+  - scrapingData_TJC-Confessions-133149643521172_FULL.xlsx
+  - scrapingData_tpconfession_FULL.xlsx
+  - scrapingData_yoyokulala_FULL.xlsx
+  - scrappingData_MemedefSG_FULL.xlsx
+  - scrappingData_SGAG.xlsx
+  - scrappingData_SGAG_FULL.xlsx
+  - scrappingData_singlish101_FULL.xlsx
+- README.md
+- singaporeMap.jpg
+- project_pipeline.png
 
-o	scrapedData/
-▪	scrapingData_ACJC-Confessions-365341810240423_FULL.xlsx
-▪	scrapingData_andiechen_FULL.xlsx
-▪	scrapingData_asrjcconfessions_FULL.xlsx
-▪	scrapingData_bellywellyjelly_FULL.xlsx
-▪	scrapingData_benjamin.kheng_FULL.xlsx
-▪	scrapingData_bossyflossie_FULL.xlsx
-▪	scrapingData_cjcroxx_FULL.xlsx
-▪	scrapingData_DanielFoodDiary_FULL.xlsx
-▪	scrapingData_DHS-Confessions-103690209814932_FULL.xlsx
-▪	scrapingData_DollarsAndSenseSG_FULL.xlsx
-▪	scrapingData_dreachongofficial_FULL.xlsx
-▪	scrapingData_HwaChongConfessions_FULL.xlsx
-▪	scrapingData_ieatishootipost_FULL.xlsx
-▪	scrapingData_InnovaConfessions_FULL.xlsx
-▪	scrapingData_ITE-College-Central-Confessions-102332676616681_FULL.xlsx
-▪	scrapingData_ITE-College-West-Confessions-123845157793064_FULL.xlsx
-▪	scrapingData_JjcConfessions_FULL.xlsx
-▪	scrapingData_ladyironchef_FULL.xlsx
-▪	scrapingData_moneysmartsg_FULL.xlsx
-▪	scrapingData_mongabong_FULL.xlsx
-▪	scrapingData_mrbrownlah_FULL.xlsx
-▪	scrapingData_mykxii_FULL.xlsx
-▪	scrapingData_NJC-Confessions-414721038609037_FULL.xlsx
-▪	scrapingData_npconfession_FULL.xlsx
-▪	scrapingData_NTUConfess_FULL.xlsx
-▪	scrapingData_nuswhispers_FULL.xlsx
-▪	scrapingData_NYP-Confessions-118332335013023_FULL.xlsx
-▪	scrapingData_RepublicPolyConfessions_FULL.xlsx
-▪	scrapingData_RJConfessions_FULL.xlsx
-▪	scrapingData_SajcConfessions_FULL.xlsx
-▪	scrapingData_sethluimarketing_FULL.xlsx
-▪	scrapingData_SGAG_FULL.xlsx',
-▪	scrapingData_simconfessions_FULL.xlsx',
-▪	scrapingData_SMUConfessionsPage_FULL.xlsx',
-▪	scrapingData_SP-Confessions-329564370479100_FULL.xlsx
-▪	scrapingData_SUSSConfessions_FULL.xlsx
-▪	scrapingData_therealnaomineo_FULL.xlsx
-▪	scrapingData_TheSmartLocal_FULL.xlsx
-▪	scrapingData_TJC-Confessions-133149643521172_FULL.xlsx
-▪	scrapingData_tpconfession_FULL.xlsx
-▪	scrapingData_yoyokulala_FULL.xlsx
-▪	scrappingData_MemedefSG_FULL.xlsx
-▪	scrappingData_SGAG.xlsx
-▪	scrappingData_SGAG_FULL.xlsx
-▪	scrappingData_singlish101_FULL.xlsx
-o	README.md
-o	singaporeMap.jpg
+Please refer to the report for a detailed explanation and sample results of this project.
